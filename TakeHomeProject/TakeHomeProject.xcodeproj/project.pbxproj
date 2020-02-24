@@ -13,6 +13,8 @@
 		6FB8B8702400AFE2006FDC6E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FB8B86E2400AFE2006FDC6E /* LaunchScreen.storyboard */; };
 		6FB8B87C2400D082006FDC6E /* SearchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB8B87B2400D082006FDC6E /* SearchVC.swift */; };
 		6FB8B87E2400D0AF006FDC6E /* FavoritesListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB8B87D2400D0AF006FDC6E /* FavoritesListVC.swift */; };
+		6FCD0FB424028A9900BC3AB6 /* GFButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FCD0FB324028A9900BC3AB6 /* GFButton.swift */; };
+		6FCD0FB62403664C00BC3AB6 /* GHTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FCD0FB52403664C00BC3AB6 /* GHTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		6FB8B8712400AFE2006FDC6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6FB8B87B2400D082006FDC6E /* SearchVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchVC.swift; sourceTree = "<group>"; };
 		6FB8B87D2400D0AF006FDC6E /* FavoritesListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesListVC.swift; sourceTree = "<group>"; };
+		6FCD0FB324028A9900BC3AB6 /* GFButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFButton.swift; sourceTree = "<group>"; };
+		6FCD0FB52403664C00BC3AB6 /* GHTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GHTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +62,13 @@
 			children = (
 				6FB8B8632400AFDE006FDC6E /* AppDelegate.swift */,
 				6FB8B8652400AFDE006FDC6E /* SceneDelegate.swift */,
+				6FCD0FB324028A9900BC3AB6 /* GFButton.swift */,
 				6FB8B86C2400AFE2006FDC6E /* Assets.xcassets */,
 				6FB8B86E2400AFE2006FDC6E /* LaunchScreen.storyboard */,
 				6FB8B8712400AFE2006FDC6E /* Info.plist */,
 				6FB8B87B2400D082006FDC6E /* SearchVC.swift */,
 				6FB8B87D2400D0AF006FDC6E /* FavoritesListVC.swift */,
+				6FCD0FB52403664C00BC3AB6 /* GHTextField.swift */,
 			);
 			path = TakeHomeProject;
 			sourceTree = "<group>";
@@ -138,6 +144,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				6FB8B87E2400D0AF006FDC6E /* FavoritesListVC.swift in Sources */,
+				6FCD0FB424028A9900BC3AB6 /* GFButton.swift in Sources */,
+				6FCD0FB62403664C00BC3AB6 /* GHTextField.swift in Sources */,
 				6FB8B87C2400D082006FDC6E /* SearchVC.swift in Sources */,
 				6FB8B8642400AFDE006FDC6E /* AppDelegate.swift in Sources */,
 				6FB8B8662400AFDE006FDC6E /* SceneDelegate.swift in Sources */,
